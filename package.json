@@ -1,0 +1,64 @@
+{
+  "name": "vui-datetime-picker",
+  "version": "1.0.0",
+  "description": "A Vue.js component implementing the datetime picker control",
+  "main": "dist/vui-datetime-picker.vue｀",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrain/vui-datetime-picker.git"
+  },
+  "keywords": [
+    "vui",
+    "vue.js",
+    "vue2",
+    "date",
+    "date-picker",
+    "time",
+    "time-picker",
+    "datetime",
+    "datetime-picker",
+    "component"
+  ],
+  "author": "zrainma@sina.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zrain/vui-datetime-picker/issues"
+  },
+  "homepage": "https://github.com/zrain/vui-datetime-picker#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.3.0",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-runtime": "^6.18.0",
+    "css-loader": "^0.26.0",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-inline-chunk-plugin": "^1.0.0",
+    "html-webpack-plugin": "^2.24.1",
+    "node-sass": "^3.13.0",
+    "postcss-loader": "^1.1.1",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "vue": "^2.1.3",
+    "vue-loader": "^10.0.1",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.1.0",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.1.3",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^1.0.1"
+  },
+  "dependencies": {
+    "vui-range": "^1.0.0"
+  }
+}
