@@ -1,6 +1,6 @@
 {
-  "name": "vui-datetime-picker",
-  "version": "1.0.3",
+  "name": "vui-test-datetime-picker",
+  "version": "1.0.0",
   "description": "A Vue.js component implementing the datetime picker control",
   "main": "dist/vui-datetime-picker.vue",
   "scripts": {
@@ -24,7 +24,7 @@
     "datetime-picker",
     "vue component"
   ],
-  "author": "zrainma@sina.com",
+  "author": "122215178@qq.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zrain/vui-datetime-picker/issues"
