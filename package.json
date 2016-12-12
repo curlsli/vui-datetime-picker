@@ -1,11 +1,12 @@
 {
   "name": "vui-datetime-picker",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A Vue.js component implementing the datetime picker control",
-  "main": "dist/vui-datetime-picker.vue｀",
+  "main": "dist/vui-datetime-picker.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot --inline --progress"
+    "start": "webpack-dev-server --hot --inline --progress",
+    "build": "rimraf dist && rimraf demo &&  webpack --config config/webpack.config.pro.js --progress --profile --colors --bail "
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
     "time-picker",
     "datetime",
     "datetime-picker",
-    "component"
+    "vue component"
   ],
   "author": "zrainma@sina.com",
   "license": "ISC",
